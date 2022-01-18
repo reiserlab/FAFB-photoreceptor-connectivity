@@ -133,7 +133,6 @@ load("data/neu_R7R8.RData")
 # anno_Mi1_DRA_excl <- catmaid_query_by_annotation('non_PR_column') # DRA col excluded
 
 load("data/Mi1_info.RData") #load locally
-load("data/neu_Mi1.RData")
 
 ind_Mi1_DRA <- which(anno_Mi1$skid %in% anno_Mi1_DRA$skid)
 ind_Mi1_DRA_hcol <- c(133, 268, 42) #seed col
